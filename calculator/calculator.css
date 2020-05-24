@@ -1,0 +1,60 @@
+﻿/*calculator.css			Written by Kyle Mason
+Stylesheet file for calculator.html*/
+
+form {
+	width: 85%;
+	height:100%;
+	/*margin: 100px auto;*/
+	padding: 5% 5% 10%;
+    text-align:center;
+    background: #A771B6;
+	box-shadow: 0px 5px #885E94, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	
+    
+}
+.screen {
+    height: 50px;
+	width:65%;
+    text-align:right;
+    font-size:1.3em;
+    font-weight:bolder;
+    margin-bottom:10px;
+    border-color:black;
+	padding-right:5px;
+	border: inset;
+}
+
+input{
+    font-weight:bold;
+    border:none;
+}
+
+.digit {
+    background-color: #645A6A ;
+    box-shadow: 0px 5px #504855 , 0px 10px 15px rgba(0, 0, 0, 0.2);
+    margin-top:10px;
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.clear {
+    background-color: indianred;
+    box-shadow: 0px 5px darkred, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 2% 5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.math {
+    background-color: #E9D232;
+    box-shadow: 0px 5px #CEBA2E, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 2% 5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
